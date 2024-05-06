@@ -33,3 +33,8 @@ comando para desfazer último commit
 ```
 git reset --soft HEAD~
 ```
+
+comando para visualização de dashboard e exportação de report
+```
+K6_WEB_DASHBOARD=true K6_WEB_DASHBOARD_EXPORT=relatorio.html k6 run exemplo2.js
+```
