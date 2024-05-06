@@ -1,0 +1,54 @@
+{
+  "remote_ip": "3.235.210.138",
+  "remote_port": 443,
+  "url": "https://test-api.k6.io/user/register/",
+  "status": 405,
+  "status_text": "405 Method Not Allowed",
+  "proto": "HTTP/1.1",
+  "headers": {
+    "Connection": "keep-alive",
+    "Vary": "Accept, Cookie",
+    "Allow": "POST, OPTIONS",
+    "Date": "Mon, 06 May 2024 20:58:10 GMT",
+    "Content-Type": "application/json",
+    "Content-Length": "40"
+  },
+  "cookies": {},
+  "body": "{\"detail\":\"Method \\\"GET\\\" not allowed.\"}",
+  "timings": {
+    "duration": 216.942315,
+    "blocked": 0.002141,
+    "looking_up": 0,
+    "connecting": 0,
+    "tls_handshaking": 0,
+    "sending": 0.011736,
+    "waiting": 216.850246,
+    "receiving": 0.080333
+  },
+  "tls_version": "tls1.3",
+  "tls_cipher_suite": "TLS_AES_128_GCM_SHA256",
+  "ocsp": {
+    "produced_at": 0,
+    "this_update": 0,
+    "next_update": 0,
+    "revoked_at": 0,
+    "revocation_reason": "",
+    "status": "unknown"
+  },
+  "error": "",
+  "error_code": 1405,
+  "request": {
+    "method": "POST",
+    "url": "https://test-api.k6.io/user/register",
+    "headers": {
+      "Content-Type": [
+        "application/x-www-form-urlencoded"
+      ],
+      "User-Agent": [
+        "k6/0.50.0 (https://k6.io/)"
+      ]
+    },
+    "body": "email=helder0.09285838724245153%40mail.com\u0026first_name=crocodilo\u0026last_name=dino\u0026password=user123\u0026username=helder0.09285838724245153%40mail.com",
+    "cookies": {}
+  }
+}
